@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+
+
+
+body{
+	background: url('http://cameronbaney.com/codepen/twitter-widget/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto';
+}
+
+
+.twitter_widget{
+
+box-shadow: 1px 1px 16px rgba(0,0,0,0.58);
+color:rgb(76,76,76);
+border-radius: 2px;
+height: 250px;
+width: 450px;
+position:absolute;
+top:50%;
+margin: -125px 0 0 -223px;
+left:50%;
+}
+
+.twitter_widget .header{
+
+	height: 122px;
+	width:450px;
+	background: url('http://cameronbaney.com/codepen/twitter-widget/bg-header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto';
+	font-size: 12px;
+	color:#fdfdfd;
+
+}
+.avatar{
+	
+	border:5px solid #29c6f5;
+	float: left;
+	margin-right: 16px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.header h2, .header p {
+	float: left;
+	width:288px;
+	padding-bottom: 0px;
+}
+.header h2 {
+		font-size:26px;
+		line-height: 32px;
+			
+		margin-bottom: 2px;
+	}
+.twitter_widget .stats{
+	height:74px;
+	width:450px;
+	background:#f3f3f3;
+
+}
+.stat{
+	color: #4c4c4c;
+	float:left;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 15px;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	padding: 15px 0 14px;
+	width:150px;
+
+}
+
+.stat strong{
+	display: block;
+	font-size: 25px;
+	line-height: 25px;
+}
+.stat:hover {
+		color: #747474
+	}
+
+
+
+.menu li{
+
+		display: inline-block;
+		margin:0 34px;
+		
+}
+.menu a{
+	background: url('http://cameronbaney.com/codepen/twitter-widget/icons.png') no-repeat;
+	overflow: hidden;
+	text-indent: -9999px;
+	display: block;
+	cursor: pointer;
+
+
+}
+.menu .compose {
+		background-position:-1px -2px;
+		width: 25px;
+		height: 26px;
+	}
+	.menu .mentions {
+		background-position: -31px -1px;
+		width: 27px;
+		height: 28px;
+	}
+	.menu .profile {
+		background-position: -65px -1px;
+		width: 24px;
+		height: 27px;
+	}
+	.menu .settings {
+		background-position: -97px -2px;
+		width: 26px;
+		height: 27px;
+	}
+	.menu a:hover {
+		opacity:.75
+	}
